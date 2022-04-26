@@ -15,22 +15,24 @@ body {
 }
 
 a {
-  color: var(--title-text-color);
+  color: inherit;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--main-font);
-}
 
-/* logo */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/* Header */
 .header {
   background-color: #ffffff;
 }
@@ -38,7 +40,6 @@ h6 {
 .logo-top,
 .logo-bot,
 .web {
-  text-decoration: none;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -55,7 +56,6 @@ h6 {
 /* Main Nav */
 
 .navigation .nav-link {
-  text-decoration: none;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -70,7 +70,6 @@ h6 {
 
 /* Contact */
 .top-contact {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -83,7 +82,7 @@ h6 {
   color: var(--accent-color);
 }
 
-/* title */
+/* title-section */
 .first-sec {
   width: 1600px;
   height: 600px;
@@ -110,6 +109,7 @@ h6 {
   line-height: 1.9;
   background-color: var(--accent-color);
   color: var(--bgc-color-white);
+  cursor: pointer;
 }
 .btn.secondary {
   background-color: #f5f4fa;
@@ -120,6 +120,7 @@ h6 {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  cursor: pointer;
 }
 .btn.secondary:hover,
 .btn.secondary:focus {
@@ -147,41 +148,27 @@ h6 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--title-text-color);
 }
 
 /* Our Team */
 .names {
-  background-color: #fff;
+  background-color: #f5f4fa;
 }
 
 /* Footer */
 
 .footer {
-  color: var(--footer-color);
   background-color: var(--footer-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
 }
-.address {
+
+.main-adress {
   font-style: normal;
-}
-/* address */
-.street {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #ffffff;
-}
-.bot-contact {
-  font-style: normal;
-  text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--bot-contact-rgb);
+}
+.street {
+  color: #ffffff;
 }
 
 .bot-contact:hover,
@@ -197,7 +184,6 @@ h6 {
   letter-spacing: 0.06em;
 }
 .prt-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--paragraf-color);
