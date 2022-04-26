@@ -90,7 +90,7 @@ ul {
   top: 80px;
   background-color: var(--footer-color);
 }
-.first-sec .main-title {
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -102,6 +102,8 @@ ul {
 
 .btn {
   font-family: inherit;
+  cursor: pointer;
+  text-align: center;
 }
 .btn.primary {
   font-weight: 700;
@@ -109,18 +111,13 @@ ul {
   line-height: 1.9;
   background-color: var(--accent-color);
   color: var(--bgc-color-white);
-  cursor: pointer;
 }
-.btn.secondary {
-  background-color: #f5f4fa;
-  color: var(--title-text-color);
-}
+
 .btn.secondary {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
-  cursor: pointer;
+  background-color: #f5f4fa;
 }
 .btn.secondary:hover,
 .btn.secondary:focus {
@@ -137,12 +134,11 @@ ul {
   color: var(--title-color-black);
 }
 .adv-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--paragraf-color);
 }
-/* our-work */
+/* Our-work */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -176,13 +172,14 @@ ul {
   color: var(--accent-color);
 }
 
-/* portfolio title and text */
+/* portfolio title */
 .prt-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+/* portfolio text */
 .prt-text {
   font-size: 16px;
   line-height: 1.9;
