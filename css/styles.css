@@ -23,6 +23,15 @@ ul {
   list-style: none;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 /* Header */
 .header {
   background-color: #ffffff;
@@ -53,10 +62,15 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-link:hover,
-.nav-link:focus,
-.nav-link:active {
+.navigation .nav-link:hover,
+.navigation .nav-link:focus,
+.navigation .nav-link:active {
   color: var(--accent-color);
+}
+
+.nav-link.current {
+  background-color: var(--accent-color);
+  color: var(--bgc-color-white);
 }
 
 /* Contact */
