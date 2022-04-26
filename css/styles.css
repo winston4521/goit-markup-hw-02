@@ -1,0 +1,204 @@
+:root {
+  --bgc-color-white: #e5e5e5;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --paragraf-color: #757575;
+  --bot-contact-rgb: rgba(255, 255, 255, 0.6);
+  --footer-color: #2f303a;
+  --main-font: Roboto;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--bgc-color-white);
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+
+a {
+  color: var(--title-text-color);
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+}
+
+/* logo */
+.header {
+  background-color: #ffffff;
+}
+
+.logo-top,
+.logo-bot,
+.web {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-bot {
+  color: #ffffff;
+}
+.web {
+  color: var(--accent-color);
+}
+
+/* Main Nav */
+
+.navigation .nav-link {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation .nav-link:hover,
+.navigation .nav-link:focus,
+.navigation .nav-link:active {
+  color: var(--accent-color);
+}
+
+/* Contact */
+.top-contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
+}
+
+.top-contact:hover,
+.top-contact:focus {
+  color: var(--accent-color);
+}
+
+/* title */
+.first-sec {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--footer-color);
+}
+.first-sec .main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  font-family: inherit;
+}
+.btn.primary {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: var(--accent-color);
+  color: var(--bgc-color-white);
+}
+.btn.secondary {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.btn.secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.btn.secondary:hover,
+.btn.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--bgc-color-white);
+}
+
+/* advantages */
+.adv-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color-black);
+}
+.adv-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--paragraf-color);
+}
+/* our-work */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* Our Team */
+.names {
+  background-color: #fff;
+}
+
+/* Footer */
+
+.footer {
+  color: var(--footer-color);
+  background-color: var(--footer-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.address {
+  font-style: normal;
+}
+/* address */
+.street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.bot-contact {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--bot-contact-rgb);
+}
+
+.bot-contact:hover,
+.bot-contact:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio title and text */
+.prt-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.prt-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--paragraf-color);
+}
