@@ -125,13 +125,14 @@ ul {
 }
 
 /* advantages */
-.adv-title {
-  font-weight: 700;
+.advantages-title {
+  font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.142;
   text-transform: uppercase;
 }
-.adv-text {
+.advantages-text {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--paragraf-color);
