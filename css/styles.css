@@ -105,6 +105,7 @@ ul {
   text-align: center;
 }
 .btn.primary {
+  position: absolute;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
