@@ -154,6 +154,17 @@ ul {
   background-color: #f5f4fa;
 }
 
+.mbr-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.mbr-text {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--paragraf-color);
+}
+
 /* Footer */
 
 .footer {
@@ -176,6 +187,7 @@ ul {
 }
 
 /* portfolio title */
+
 .prt-title {
   font-weight: 700;
   font-size: 18px;
