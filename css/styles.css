@@ -133,7 +133,6 @@ ul {
   text-transform: uppercase;
 }
 .advantages-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--paragraf-color);
