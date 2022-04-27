@@ -64,7 +64,7 @@ ul {
 
 .nav-link.current {
   background-color: var(--accent-color);
-  color: var(--bgc-color-white);
+  color: #ffffff;
 }
 
 /* Contact */
