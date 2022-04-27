@@ -6,6 +6,7 @@
   --bot-contact-rgb: rgba(255, 255, 255, 0.6);
   --footer-color: #2f303a;
   --main-font: Roboto;
+  --white: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -28,7 +29,7 @@ ul {
 }
 /* Header */
 .header {
-  background-color: #ffffff;
+  background-color: var(--white: #ffffff);
 }
 
 .logo-top,
@@ -41,7 +42,7 @@ ul {
 }
 
 .logo-bot {
-  color: #ffffff;
+  color: var(--white: #ffffff);
 }
 .web {
   color: var(--accent-color);
@@ -64,7 +65,7 @@ ul {
 
 .nav-link.current {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white: #ffffff);
 }
 
 /* Contact */
@@ -96,7 +97,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white: #ffffff);
 }
 
 .btn {
@@ -110,7 +111,7 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   background-color: var(--accent-color);
-  color: var(--bgc-color-white);
+  color: var(--white: #ffffff);
 }
 
 .btn.secondary {
@@ -122,7 +123,7 @@ ul {
 .btn.secondary:hover,
 .btn.secondary:focus {
   background-color: var(--accent-color);
-  color: var(--bgc-color-white);
+  color: var(--white: #ffffff);
 }
 
 /* advantages */
@@ -163,7 +164,7 @@ ul {
   color: var(--bot-contact-rgb);
 }
 .street {
-  color: #ffffff;
+  color: var(--white: #ffffff);
 }
 
 .bot-contact:hover,
