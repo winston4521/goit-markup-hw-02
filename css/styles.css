@@ -131,7 +131,6 @@ ul {
 
 /* advantages */
 .advantages-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   text-transform: uppercase;
@@ -143,7 +142,6 @@ ul {
 }
 /* Our-work */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -189,7 +187,6 @@ ul {
 /* portfolio title */
 
 .prt-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
