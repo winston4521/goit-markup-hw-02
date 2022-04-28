@@ -9,7 +9,7 @@
   --white-color: #ffffff;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   background-color: var(--bgc-color-white);
   color: var(--title-text-color);
   letter-spacing: 0.03em;
